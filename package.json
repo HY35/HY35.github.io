@@ -1,0 +1,18 @@
+{
+    "name": "chrome-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "start": "parcel index.html --open",
+        "build": "parcel build index.html",
+        "dev": "parcel index.html --watch"
+    },
+    "devDependencies": {
+        "@babel/core": "7.2.0",
+        "cssnano": "^6.0.1",
+        "parcel-bundler": "^1.6.1",
+        "postcss": "^8.4.31"
+    },
+    "keywords": []
+}
